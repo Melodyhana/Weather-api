@@ -29,7 +29,7 @@
     <list>
         <mapping class="cn.itcast.weatherapp.db.Province" />
         <mapping class="cn.itcast.weatherapp.db.City" />
-        <mapping class="cn.itcast.weatherapp.db.Country" />
+        <mapping class="cn.itcast.weatherapp.db.County" />
     </list>
 
     <list>

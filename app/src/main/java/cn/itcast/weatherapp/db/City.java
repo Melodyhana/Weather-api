@@ -1,8 +1,8 @@
 package cn.itcast.weatherapp.db;
 
-import org.litepal.LitePalApplication;
+import org.litepal.crud.LitePalSupport;
 
-public class City extends LitePalApplication {
+public class City extends LitePalSupport {
     private int id;
     private String cityName;
     private int cityCode;

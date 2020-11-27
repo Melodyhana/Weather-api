@@ -2,8 +2,9 @@ package cn.itcast.weatherapp.db;
 
 
 import org.litepal.LitePalApplication;
+import org.litepal.crud.LitePalSupport;
 
-public class Province extends LitePalApplication {
+public class Province extends LitePalSupport {
     private int id;
     private String provinceName;
     private int provinceCode;
@@ -31,4 +32,5 @@ public class Province extends LitePalApplication {
     public void setProvinceCode(int provinceCode) {
         this.provinceCode = provinceCode;
     }
+
 }

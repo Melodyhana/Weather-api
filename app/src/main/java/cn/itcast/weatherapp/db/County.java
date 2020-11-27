@@ -1,8 +1,8 @@
 package cn.itcast.weatherapp.db;
 
-import org.litepal.LitePalApplication;
+import org.litepal.crud.LitePalSupport;
 
-public class Country extends LitePalApplication {
+public class County extends LitePalSupport {
     private int id;
     private String countyName;
     private String weatherId;
@@ -39,4 +39,5 @@ public class Country extends LitePalApplication {
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
 }
