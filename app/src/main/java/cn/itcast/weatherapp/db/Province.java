@@ -1,7 +1,5 @@
 package cn.itcast.weatherapp.db;
 
-
-import org.litepal.LitePalApplication;
 import org.litepal.crud.LitePalSupport;
 
 public class Province extends LitePalSupport {
