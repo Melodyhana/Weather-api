@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">WeatherApp</string>
+    <string name="app_name">Weather</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <item name="tv_wind_direction" type="id" />
+    <item name="tv_wind_power" type="id" />
 </resources>
